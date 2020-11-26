@@ -595,30 +595,6 @@
     <Compile Include="Interop\_Platform\RECT.cs" />
     <Compile Include="Structs\CefMouseEvent.cs" />
     <Compile Include="Structs\CefScreenInfo.cs" />
-    <None Include="CefLibs\cef.pak">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CefLibs\cef_100_percent.pak">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CefLibs\cef_200_percent.pak">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CefLibs\cef_extensions.pak">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CefLibs\devtools_resources.pak">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CefLibs\icudtl.dat">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CefLibs\snapshot_blob.bin">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="CefLibs\v8_context_snapshot.bin">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="Wrapper\MessageRouter\CefBrowserInfoMap.cs" />
     <None Include="Wrapper\MessageRouter\CefMessageRouterBrowserSide.cs" />
     <None Include="Wrapper\MessageRouter\CefMessageRouterConfig.cs" />
@@ -655,23 +631,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Wrapper\MessageRouter\ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="CefLibs\chrome_elf.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="CefLibs\d3dcompiler_47.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="CefLibs\libcef.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="CefLibs\libEGL.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="CefLibs\libGLESv2.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
